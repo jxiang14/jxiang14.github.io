@@ -97,3 +97,9 @@ h3 {
   text-align: left;
   font-size: 40px;
 }
+
+.resumeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
