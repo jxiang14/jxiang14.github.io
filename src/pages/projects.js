@@ -1,34 +1,70 @@
 // src/pages/about.js
 
 import React from "react"
+import Grid from '@mui/material/Grid';
+// import Card from '@mui/material/Card';
+// import CardContent from '@mui/material/CardContent';
+// import CardActions from '@mui/material/CardActions';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import Layout from "../components/layout"
+import ActionAreaCard from "../components/card"
 
-const AboutPage = () => (
+const ProjectsPage = () => (
   <Layout>
-    <h2>About Me</h2>
-    <p>Welcome to the About Me page of my portfolio website. Here, I'll share a bit about myself.</p>
-    
-    <section>
-      <h3>Background</h3>
-      <p>I have a background in [your field of study/profession]. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-    </section>
+    <h2>Projects</h2>
+    {/* <h3>Explore some of the projects I've worked on.</h3> */}
+    {/* <div className="projectsContainer">
 
-    <section>
-      <h3>Skills</h3>
-      <p>Some of my key skills include:</p>
-      <ul>
-        <li>React.js</li>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-    </section>
+      <div className="project-card">
+        <h3>Ametek</h3>
+        <p>Interned at Amptek summer 2023. Built a full-stack Python app for testing all of the companies circuit boards.</p>
+        <p>Libraries used: PySerial, PyUSB, Socket, MatPlotLib, Tkinter</p>
+      </div>
 
-    <section>
-      <h3>Experience</h3>
-      <p>I have worked on various projects, including [mention a few projects you're proud of].</p>
-    </section>
+      <div className="project-card">
+        <h3>Cornell AutoBoat</h3>
+        <p>Worked on software for controlling the boat's motors.</p>
+        <p>Technologies used: Python, C++, PySerial</p>
+      </div>
+
+    </div> */}
+    <div className="projectsContainer">
+
+      {/* <Grid container alignItems="stretch" spacing={2}>
+      <Grid item component={ActionAreaCard} xs={3}>
+      <ActionAreaCard></ActionAreaCard>
+      </Grid>
+      <Grid item component={ActionAreaCard} xs={3}>
+      <ActionAreaCard></ActionAreaCard>
+      </Grid>
+
+      <Grid item component={ActionAreaCard} xs={3}>
+      <ActionAreaCard></ActionAreaCard>
+      </Grid>
+      </Grid>
+       */}
+      <Box>
+      <Grid container alignItems="stretch" justifyContent="space-evenly" rowSpacing={3} columnSpacing={5
+      }>
+        <Grid item xs={6} md={4}>
+        <ActionAreaCard></ActionAreaCard>
+        </Grid>
+        <Grid item xs={6} md={4}>
+        <ActionAreaCard></ActionAreaCard>
+        </Grid>
+        <Grid item xs={6} md={4}>
+        <ActionAreaCard></ActionAreaCard>
+        </Grid>
+        <Grid item xs={6} md={4}>
+        <ActionAreaCard></ActionAreaCard>
+        </Grid>
+      </Grid>
+    </Box>
+    </div>
+    {/* Add more project cards as needed */}
   </Layout>
 )
 
-export default AboutPage
+export default ProjectsPage
