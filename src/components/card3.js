@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import boatImage from "../images/boat1.png";
-import Dashboard from '../pages/dashboard';
+import Dashboard3 from '../pages/dashboard3';
 
 export default function ActionAreaCard1() {
   return (
@@ -31,7 +31,7 @@ export default function ActionAreaCard1() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Dashboard></Dashboard>
+        <Dashboard3></Dashboard3>
         </CardActions>
     </Card>
   );
