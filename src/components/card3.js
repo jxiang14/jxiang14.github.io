@@ -4,32 +4,33 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-import boatImage from "../images/boat1.png";
+import dogImage from "../images/dog.png";
 import Dashboard3 from '../pages/dashboard3';
 
 export default function ActionAreaCard1() {
   return (
     // sx={{ maxHeight: 545 }}
     <Card>
-      <CardActionArea>
         <CardMedia
           component="img"
           // sx={{ height: 200 }}
           sx={{ height: 200, padding: "0em 0em 0 0em"}}
-          image={boatImage}
+          image={dogImage}
           alt="boat"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Boat
+            Dog Leg Prediction Model
+          </Typography>
+          <Typography gutterBottom variant="h7" component="div">
+            Class Project (Machine Learning)
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <p>Worked on software for controlling the boat's motors.</p>
-            <p>Technologies used: Python, C++, PySerial</p>
+            <p>In a team of 2, I cleaned data from the Vet School and used it to generate a model for predicting whether a dog's legs are lame or not.</p>
+            <br></br>
+            <p>Technologies used: Python, SkLearn, Numpy, Pandas</p>
           </Typography>
         </CardContent>
-      </CardActionArea>
       <CardActions>
         <Dashboard3></Dashboard3>
         </CardActions>

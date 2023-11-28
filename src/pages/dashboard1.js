@@ -19,16 +19,16 @@ hideModal = () => {
 
 render() {
   return (
-  <main>
+  <main >
     {this.state.show && createPortal(
     <Modal show={this.state.show} handleClose={this.hideModal}>
         <h3>Cornell AutoBoat</h3>
-        <p>Worked on software for controlling the boat's motors.</p>
+        <p>In Modal, Worked on software for controlling the boat's motors.</p>
         <p>Technologies used: Python, C++, PySerial</p>
     </Modal>,
         document.body
     )}
-  <button type="button" onClick={this.showModal}>
+  <button className="border px-20 py-2 hover:bg-gray-300" type="button" onClick={this.showModal}>
   Learn More
   </button>
   </main>

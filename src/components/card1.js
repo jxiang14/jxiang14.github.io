@@ -4,7 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 import boatImage from "../images/boat1.png";
 import Dashboard1 from '../pages/dashboard1';
 
@@ -12,7 +11,6 @@ export default function ActionAreaCard1() {
   return (
     // sx={{ maxHeight: 545 }}
     <Card>
-      <CardActionArea>
         <CardMedia
           component="img"
           // sx={{ height: 200 }}
@@ -22,14 +20,17 @@ export default function ActionAreaCard1() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Boat
+            Cornell AutoBoat
+          </Typography>
+          <Typography gutterBottom variant="h7" component="div">
+            Software Controls Lead
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <p>Worked on software for controlling the boat's motors.</p>
+            <p>The AutoBoat project team builds an autonomous boat each year for competition. On the software team, I work on path execution algorithms and code for microcontrollers.</p>
+            <br></br>
             <p>Technologies used: Python, C++, PySerial</p>
           </Typography>
         </CardContent>
-      </CardActionArea>
       <CardActions>
         <Dashboard1></Dashboard1>
         </CardActions>

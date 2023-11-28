@@ -4,32 +4,33 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-import boatImage from "../images/boat1.png";
+import ametekImage from "../images/ametek.png";
 import Dashboard from '../pages/dashboard';
 
 export default function ActionAreaCard1() {
   return (
     // sx={{ maxHeight: 545 }}
     <Card>
-      <CardActionArea>
         <CardMedia
           component="img"
           // sx={{ height: 200 }}
           sx={{ height: 200, padding: "0em 0em 0 0em"}}
-          image={boatImage}
+          image={ametekImage}
           alt="boat"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Boat
+            Ametek
+          </Typography>
+          <Typography gutterBottom variant="h7" component="div">
+            Software Engineering Intern
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <p>Worked on software for controlling the boat's motors.</p>
-            <p>Technologies used: Python, C++, PySerial</p>
+          <p>I interned at Ametek summer 2023. I built a full-stack Python app for testing each of my location's circuit boards.</p>
+          <br></br>
+        <p>Technologies used: Python, PySerial, PyUSB, Socket, MatPlotLib, Tkinter</p>
           </Typography>
         </CardContent>
-      </CardActionArea>
       <CardActions>
         <Dashboard></Dashboard>
         </CardActions>

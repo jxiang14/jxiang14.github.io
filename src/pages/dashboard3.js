@@ -28,7 +28,7 @@ render() {
     </Modal>,
         document.body
     )}
-  <button type="button" onClick={this.showModal}>
+  <button className="border px-20 py-2 hover:bg-gray-300" type="button" onClick={this.showModal}>
   Learn More
   </button>
   </main>

@@ -10,6 +10,9 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Layout from "../components/layout"
 import ActionAreaCard from "../components/card"
+import ActionAreaCard1 from "../components/card1";
+import ActionAreaCard2 from "../components/card2";
+import ActionAreaCard3 from "../components/card3";
 
 const ProjectsPage = () => (
   <Layout>
@@ -46,19 +49,18 @@ const ProjectsPage = () => (
       </Grid>
        */}
       <Box>
-      <Grid container alignItems="stretch" justifyContent="space-evenly" rowSpacing={3} columnSpacing={5
-      }>
+      <Grid container alignItems="stretch" justifyContent="space-evenly" rowSpacing={3} columnSpacing={5}>
         <Grid item xs={6} md={4}>
         <ActionAreaCard></ActionAreaCard>
         </Grid>
         <Grid item xs={6} md={4}>
-        <ActionAreaCard></ActionAreaCard>
+        <ActionAreaCard1></ActionAreaCard1>
         </Grid>
         <Grid item xs={6} md={4}>
-        <ActionAreaCard></ActionAreaCard>
+        <ActionAreaCard2></ActionAreaCard2>
         </Grid>
         <Grid item xs={6} md={4}>
-        <ActionAreaCard></ActionAreaCard>
+        <ActionAreaCard3></ActionAreaCard3>
         </Grid>
       </Grid>
     </Box>
