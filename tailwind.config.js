@@ -5,7 +5,9 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      hedvig: ["'Hedvig Letters Sans', sans-serif"],
+    },},
   },
   plugins: [],
 }
