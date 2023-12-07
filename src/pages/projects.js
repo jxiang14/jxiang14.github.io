@@ -16,7 +16,7 @@ import ActionAreaCard3 from "../components/card3";
 
 const ProjectsPage = () => (
   <Layout>
-    <h2>Projects</h2>
+    {/* <h2>Projects</h2> */}
     {/* <h3>Explore some of the projects I've worked on.</h3> */}
     {/* <div className="projectsContainer">
 

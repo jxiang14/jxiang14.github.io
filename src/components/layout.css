@@ -1,15 +1,15 @@
 /* src/components/layout.css */
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'hedvig', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 595847 */
 header {
-  background-color: #595847;
-  color: white;
+  background-color: #82b06d;
+  color: black;
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -40,8 +40,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
+}
+
+nav a:hover {
+  color: #3d3d3d;
 }
 
 main {
@@ -51,8 +55,8 @@ main {
 }
 
 footer {
-  background-color: #595847;
-  color: white;
+  background-color: #82b06d;
+  color: black;
   text-align: center;
   padding: .2rem;
   position: fixed;
@@ -105,7 +109,7 @@ h3 {
 }
 
 .project-card {
-  border: 5px solid #595847;
+  border: 5px solid #8c8b68;
   padding: 1rem;
   margin-bottom: 1rem;
   margin: 1rem;

@@ -19,13 +19,13 @@ export default function ActionAreaCard1() {
           alt="boat"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h5" component="div">
             Ametek
           </Typography>
-          <Typography gutterBottom variant="h7" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h7" component="div">
             Software Engineering Intern
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography className="font-hedvig"  variant="body2" color="text.secondary">
           <p>I interned at Ametek summer 2023. I built a full-stack Python app for testing each of my location's circuit boards.</p>
           <br></br>
         <p>Technologies used: Python, PySerial, PyUSB, Socket, MatPlotLib, Tkinter</p>

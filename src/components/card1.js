@@ -19,13 +19,13 @@ export default function ActionAreaCard1() {
           alt="boat"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h5" component="div">
             Cornell AutoBoat
           </Typography>
-          <Typography gutterBottom variant="h7" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h7" component="div">
             Software Controls Lead
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography className="font-hedvig"  variant="body2" color="text.secondary">
             <p>The AutoBoat project team builds an autonomous boat each year for competition. On the software team, I work on path execution algorithms and code for microcontrollers.</p>
             <br></br>
             <p>Technologies used: Python, C++, PySerial</p>

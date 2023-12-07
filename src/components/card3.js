@@ -19,13 +19,13 @@ export default function ActionAreaCard1() {
           alt="boat"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h5" component="div">
             Dog Leg Prediction Model
           </Typography>
-          <Typography gutterBottom variant="h7" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h7" component="div">
             Class Project (Machine Learning)
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography className="font-hedvig"  variant="body2" color="text.secondary">
             <p>In a team of 2, I cleaned data from the Vet School and used it to generate a model for predicting whether a dog's legs are lame or not.</p>
             <br></br>
             <p>Technologies used: Python, SkLearn, Numpy, Pandas</p>

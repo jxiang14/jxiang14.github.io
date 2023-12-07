@@ -1,12 +1,19 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import logo from "../images/logo.png"
 import "./layout.css" // You can add your custom styles here
 
 const Layout = ({ children }) => (
   <>
     <header>
-      <h1><Link to="/">Jeffrey Xiang</Link></h1>
+    <Link to="/">
+      <div className="flex flex-row">
+        <div className="pl-8">
+        <img src={logo} alt="Logo with initials JX" width="35px" height="18px"></img>
+        </div>
+      <h1 className="px-3">Jeffrey Xiang</h1>
+      </div></Link>
       <nav>
         <ul>
           {/* <li><Link to="/">Home</Link></li> */}

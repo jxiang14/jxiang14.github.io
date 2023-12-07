@@ -19,13 +19,13 @@ export default function ActionAreaCard1() {
           alt="boat"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h5" component="div">
             Go Fish
           </Typography>
-          <Typography gutterBottom variant="h7" component="div">
+          <Typography className="font-hedvig"  gutterBottom variant="h7" component="div">
             Class Project (Functional Programming)
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography className="font-hedvig"  variant="body2" color="text.secondary">
             <p>In a team of 3, I worked on a terminal-based Go Fish game, incorporating information sharing mimicking an in-person game.</p>
             <br></br>
             <p>Technologies used: OCaml</p>

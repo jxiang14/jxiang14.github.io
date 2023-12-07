@@ -15,30 +15,32 @@ const AboutPage = () => (
     </section>
     
     <section className="px-12 w-full">
-      <Typography gutterBottom variant="h4" component="div">
+      <div className="flex flex-col gap-y-4">
+      <Typography className="font-hedvig underline decoration-lime-500"  gutterBottom variant="h4" component="div">
         Currently in school,
       </Typography>
-      <Typography variant="body1" gutterBottom>
-        I am a junior studying computer science and chemistry at Cornell University.
-        Within the two disciplines, my favorite classes revolve around machine learning, numerical analysis, and physical chemistry.
-        I have worked as a TA for CS1110 (Intro to CS) and CS2110 (Object-Oriented Programming) and 
-        plan to work as a TA for CS4780 (Machine Learning).
-        My current research interests lie in applying computational techniques to chemistry issues.
+      <Typography className="font-hedvig"  variant="body1" gutterBottom>
+        <li>I am a junior studying computer science and chemistry at Cornell University.</li>
+        <li>Within the two disciplines, my favorite classes revolve around machine learning, numerical analysis, and physical chemistry.</li>
+        <li>I am currently working as a TA for CS 4780 (Machine Learning). I previously worked as a TA for CS 1110 (Intro to CS) and CS 2110 
+        (Object-Oriented Programming).</li>
+        <li>My current research interests lie in applying computational techniques to chemistry issues.</li>
       </Typography>
-      <Typography gutterBottom variant="h4" component="div">
+      <Typography className="font-hedvig underline decoration-lime-500"  gutterBottom variant="h4" component="div">
         Out in the world,
       </Typography>
-      <Typography variant="body1" gutterBottom>
-        I enjoy playing soccer on my intramural team, going to the gym, and 
-        exploring all Ithaca has to offer. At home, I spend my time cooking and eating new dishes, 
-        watching TV shows (currently watching Suits), and playing too much chess.
+      <Typography className="font-hedvig"  variant="body1" gutterBottom>
+        <li>I enjoy playing soccer on my intramural team, going to the gym, and 
+        exploring all Ithaca has to offer.</li><li> At home, I spend my time cooking and eating new dishes, 
+        watching TV shows (currently watching Suits), and playing too much chess.</li>
       </Typography>
-      <Typography gutterBottom variant="h4" component="div">
+      <Typography className="font-hedvig underline decoration-lime-500"  gutterBottom variant="h4" component="div">
         In the future,
       </Typography>
-      <Typography variant="body1" gutterBottom>
-        I hope to continue studying computational chemistry in graduate school, and I plan to apply to PhD programs in chemistry.
+      <Typography className="font-hedvig"  variant="body1" gutterBottom>
+        <li>I hope to continue studying computational chemistry in graduate school, and I plan to apply to PhD programs in chemistry.</li>
       </Typography>
+      </div>
     </section>
     </div>
   </Layout>
