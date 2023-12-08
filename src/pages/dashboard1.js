@@ -59,7 +59,7 @@ render() {
           <Typography className="font-hedvig"  variant="body1" gutterBottom>
             The Cornell Autoboat project team builds a boat capable of autonomous navigation 
             through an obstacle course. The team, composed of hardware, software, and 
-            business teams, competes at the annual Robonation competition. I head the controls 
+            business teams, competes at the annual <a className="underline hover:decoration-lime-500" href="https://roboboat.org/" target="_blank" rel="noopener noreferrer">Robonation competition</a>. I head the controls 
             subteam, within the software team.
           </Typography>
           <Typography className="font-hedvig"  variant="body1" gutterBottom>

@@ -20,7 +20,7 @@ const IndexPage = () => (
         Researcher and Software Developer
       </Typography>
       <Typography className="font-hedvig text-xl"  variant="body1" gutterBottom>
-      <Link to="/projects" className="hover:underline decoration-lime-500">Click around</Link>, I'll share a bit more about myself.
+      <Link to="/projects" className="underline hover:decoration-lime-500">Click around</Link>, I'll share a bit more about myself.
       </Typography>
         {/* <h1>Hi I'm Jeffrey</h1>
         <p>Researcher and Software Developer</p>
