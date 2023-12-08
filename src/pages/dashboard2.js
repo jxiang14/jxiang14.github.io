@@ -69,6 +69,9 @@ render() {
             As a solution, I implemented a scoreboard and game log for other players to track 
             the game's progress.
           </Typography>
+          <Typography className="font-hedvig"  variant="body1" gutterBottom>
+            <a className="underline hover:decoration-lime-500" href="https://github.com/jxiang14/Go-Fish-Game-Final" target="_blank" rel="noopener noreferrer">Check out the repository</a>
+          </Typography>
           </div>
         </section>
         </div>
