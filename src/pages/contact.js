@@ -2,8 +2,7 @@
 
 import React from "react"
 import Layout from "../components/layout"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import EmailIcon from '@mui/icons-material/Email';
 import { Typography } from "@mui/material";
 
@@ -17,13 +16,15 @@ const ContactPage = () => (
         <EmailIcon></EmailIcon> jjx5 at Cornell dot edu
       </Typography>
       <Typography className="font-hedvig"  gutterBottom variant="h6" component="div">
-      <a href={"https://github.com/jxiang14"} target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faGithub} /> jxiang14
-      </a>
+        <div >
+          <a className="flex flex-row items-center" href={"https://github.com/jxiang14"} target="_blank" rel="noopener noreferrer">
+            <FaGithub className="mr-2"/> jxiang14
+          </a>
+      </div>
       </Typography>
       <Typography className="font-hedvig"  gutterBottom variant="h6" component="div">
-      <a href={'https://www.linkedin.com/in/jeffrey-xiang/'} target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faLinkedin} /> jeffrey-xiang
+      <a className="flex flex-row items-center" href={'https://www.linkedin.com/in/jeffrey-xiang/'} target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="mr-2"/> jeffrey-xiang
       </a>
       </Typography>
     </div>
