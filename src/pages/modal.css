@@ -7,10 +7,11 @@
   background: rgba(0, 0, 0, 0.6);
 }
 .modal-main {
+  overflow-y: auto;
   position:fixed;
   background: white;
   width: 80%;
-  height: auto;
+  max-height: 80%;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);

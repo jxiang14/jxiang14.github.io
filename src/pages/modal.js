@@ -7,12 +7,14 @@ const Modal = ({ handleClose, show, children }) => {
 
   return (
     <div className={showHideClassName}>
-      <section className="modal-main p-2 text-3xl">
+      <div className="modal-main p-2 text-3xl">
         <button className='' type="button" onClick={handleClose}>
           X
         </button>
+        <div className='h-{80vh} overflow-y-auto'>
         {children}
-      </section>
+        </div>
+      </div>
     </div>
   );
 }; export default Modal
