@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjeffrey_portfolio=self.webpackChunkjeffrey_portfolio||[]).push([[622],{6168:function(e,l,t){t.r(l);var a=t(7294);l.default=e=>{let{handleClose:l,show:t,children:o}=e;const n=t?"modal display-block":"modal display-none";return a.createElement("div",{className:n},a.createElement("section",{className:"modal-main p-2 text-3xl"},a.createElement("button",{className:"",type:"button",onClick:l},"X"),o))}}}]);
+//# sourceMappingURL=component---src-pages-modal-js-7051e5852e3101bfb19c.js.map
