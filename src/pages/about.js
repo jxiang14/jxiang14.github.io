@@ -38,7 +38,7 @@ const AboutPage = () => (
         In the future,
       </Typography>
       <Typography className="font-hedvig"  variant="body1" gutterBottom>
-        <li>I hope to continue studying computational chemistry in graduate school, and I plan to apply to PhD programs in chemistry.</li>
+        <li>I plan to work in software engineering and am also open to studying computational chemistry in graduate school. I hope to eventually apply to PhD programs in chemistry.</li>
       </Typography>
       </div>
     </section>
